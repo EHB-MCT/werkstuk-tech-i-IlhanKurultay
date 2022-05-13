@@ -28,19 +28,19 @@ Vul volgende elementen in, deze zullen dezelfde zijn voor iedereen in de groep. 
 12. Sterft door krachten die hem sneller doe verouderen
 
 ## Experience
-Voor mijn statische moet het een gespannen gevoel leveren aan de gebruiker, want hij gaat door een trijning bij de leger. Daarom gebruikte ik een gegraveerde persoon achter een houten plank staat en zich richt met een wapen naar 3d schietrozen.
-Voor mijn dynamische wou ik een oncomfortabel gevoel opjagen door op hout gegraveerde bus naar een slachtveld te laten rijden. Er zat een knop aanwezig die de lampen van de auto starte om het gevoel te geven dat ze naar de slachtveld gingen.
-
-Voor mijn dynamisch zou ik liever een speaker eraan toegevoegd willen want, aan de hand bij het klikken op een knop zou er een eng geluid afgespeeld kunnen worden samen met de gegraveerde auto en bom zou het oncomfortabel gevoel sneller oppikken.
-
-
-
 Leg uit hoe je de experience van de gebruiker vormgaf en waar je nog dingen zou toevoegen (licht, geluid, materiaal, etc)
+
+Voor mijn statische moet het een gespannen gevoel leveren aan de gebruiker, want hij gaat door een training bij de leger. Daarom gebruikte ik een gegraveerde persoon die achter een houten plank staat en met zijn wapen schiet naar ge-3dprinte doelen.
+Voor mijn dynamische tegel wou ik een oncomfortabel gevoel opjagen door een op hout gegraveerde bus naar een slachtveld te laten rijden. Er is een knop aanwezig die de lampen van de auto starte om het gevoel te geven dat ze naar de slachtveld rijden.
+
+Voor mijn dynamische tegel zou ik een speaker eraan toegevoegen, aan de hand van het klikken op de knop zou er een eng geluid afspelen. Samen met de gegraveerde auto en bom zou het oncomfortabel gevoel sneller oppikken.
+
+
+
+
 
 ## Interaction
 
 Leg uit welke interaction je hebt toegevoegd, en hoe je deze duidelijk maakt aan de gebruiker. Voeg toe hoe je deze in de toekomst anders zou aanpakken, of waar je meer duidelijkheid zou creeeren indien nodig.
-Als iteraction heb ik een knop toegevoegd met 2 lampen in mijn bord. De lampen bevinden in de bus. De knop staat los van de bord maar de gebruiker kan het makkelijk vinden op het eerste zicht.
 
-
-
+Als interaction heb ik een knop toegevoegd met 2 lampen op mijn bord. De lampen bevinden zich in de bus. De knop staat los van de bord maar de gebruiker kan het makkelijk vinden op het eerste zicht. Bij het kliken start de bus en is klaar om naar de slachtveld te gaan. Het slachtveld heb ik aangeduid met een bom die in de verte ontploft en 2 vliegtuigen dat in 3d zijn geprint die wegvliegen van het slagveld.

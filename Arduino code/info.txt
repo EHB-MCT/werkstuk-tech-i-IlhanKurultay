@@ -1,1 +1,34 @@
 Zet hier de arduino code
+
+
+const int BUTTON_PIN = 7; // Arduino pin verbonden met de pin van de knop
+const int LED_PINEen    = 3; // Arduino pin verbonden met LED's pin
+const int LED_PINTwee    = 4; //Arduino pin verbonden met LED's pin
+
+int ledState = LOW;     // de huidige toestand van LED
+int lastButtonState;    // de vorige toestand van knop
+int currentButtonState; // de huidige toestand van knop
+
+void setup() {
+  Serial.begin(9600);                // initialiseer serieel
+  pinMode(BUTTON_PIN, INPUT_PULLUP); // zet arduino pin in ingang pull-up mode
+  pinMode(LED_PINEen, OUTPUT);       // zet arduino pin op uitgangsmode
+ pinMode(LED_PINTwee, OUTPUT);       // zet arduino pin op uitgangsmode
+  currentButtonState = digitalRead(BUTTON_PIN);
+}
+
+void loop() {
+  lastButtonState    = currentButtonState;      // bewaar de laatste toestand
+  currentButtonState = digitalRead(BUTTON_PIN); // nieuwe staat lezen
+
+  if(lastButtonState == HIGH && currentButtonState == LOW) {
+    Serial.println("De knop is ingedrukt");
+
+    // de toestand van de LED omwisselen
+    ledState = !ledState;
+    // stuur LED arccoding naar de geschakelde toestand
+    digitalWrite(LED_PINEen, ledState); 
+    delay(500);
+    digitalWrite(LED_PINTwee, ledState);
+  }
+}
